@@ -1,6 +1,8 @@
 body {
   margin: 0;
-  color: whitesmoke;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 
 #header,
@@ -14,22 +16,57 @@ body {
 /*===================HEADER STYLING==================*/
 
 #header {
+  max-width: 300px;
+  border: 2px dashed blueviolet;
+}
+
+.logo {
   width: 300px;
 }
 
 #header-img {
   width: 100px;
+  margin: 0 auto;
+  border: 2px solid red;
+}
+
+#hero {
+  max-width: 300px;
+  padding-top: 20px;
+  padding-bottom: 70px;
+  background-image: url(logo1.jpg);
+  background-position: center;
+  background-size: 300px;
 }
 
 /*====================================================*/
 /*===================NAV-BAR STYLING==================*/
 
+#nav-bar {
+  margin: 0 auto;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 ul {
   list-style-type: none;
+  margin: 5px auto;
+  padding: 0 5px;
 }
+
+li {
+  font-size: 10px;
+  letter-spacing: 3px;
+  padding: 5px 9px;
+}
+
+.bord {
+  border-right: 2px solid black;
+}
+
+/*====================================================*/
+/*==================CONTAINER STYLING=================*/
