@@ -10,7 +10,8 @@ body {
 
 body,
 #header,
-nav ul {
+nav ul,
+.details {
   margin: 0;
 }
 
@@ -91,24 +92,34 @@ nav ul li a {
   word-spacing: 4px;
 }
 
-/*========================================================*/
-/*=================MAIN CONTAINER STYLING=================*/
-
 .container {
-  border: 2px solid purple;
   margin: 10px 0;
+  padding: 20px 20px;
   max-width: 1200px;
 }
 
 .ad {
-  border: 2px dashed yellow;
   margin: 5px 5px;
 }
 
-.promo {
+/*.promo {
   border: 2px solid green;
-}
+}*/
 
 .cars {
   width: 100%;
+  box-shadow: 2px 2px 2px black;
 }
+
+p {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.details {
+  font-size: 11px;
+  text-shadow: 2px 2px 2px black;
+}
+
+/*========================================================*/
+/*======================FORM STYLING======================*/
