@@ -3,30 +3,45 @@ body {
   font-family: "Questrial", sans-serif;
   text-transform: uppercase;
   box-sizing: border-box;
+  background: linear-gradient(black, rgb(51, 50, 50), gray);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
+body,
+#header,
+nav ul {
+  margin: 0;
+}
 
+#header,
+#header-img,
+#nav-bar {
+  padding: 0 5px;
+}
 
-/*=====================================================*/
-/*====================HEADER STYLING===================*/
+/*=======================================================*/
+/*=====================HEADER STYLING====================*/
 
 header {
-  margin: 0;
-  padding: 5px 5px;
-  border: 2px solid red;
+  background-color: black;
+  background-image: url(images/grill.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 360px;
 }
 
 #header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 2px dotted hotpink;
 }
-
 
 /*==============HEADER IMG STYLING===============*/
 
 .logo {
-  width: 100px;
+  width: 75px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,12 +49,12 @@ header {
 
 #header-img {
   width: 100%;
+  margin: 0 5px;
 }
 
 /*=================NAV-BAR STYLING================*/
 
-
-nav {
+#nav-bar {
   display: flex;
   align-items: center;
 }
@@ -48,7 +63,6 @@ nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  margin: 0;
   padding: 0;
 }
 
@@ -58,13 +72,31 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
   font-size: 10px;
+  letter-spacing: 1px;
 }
 
 .bord {
-  border-right: 1px solid black;
+  border-right: 1px solid whitesmoke;
 }
 
-/*======================================================*/
-/*===================HERO IMG STYLING===================*/
+/*========================================================*/
+/*=================H2 DESCRIPTION STYLING=================*/
+
+#description {
+  margin: 10px 5px;
+  color: whitesmoke;
+  text-align: center;
+  letter-spacing: 4px;
+  word-spacing: 3px;
+}
+
+/*========================================================*/
+/*=================MAIN CONTAINER STYLING=================*/
+
+.container {
+  border: 2px solid purple;
+  margin: 10px 0;
+  max-width: 1200px;
+}
