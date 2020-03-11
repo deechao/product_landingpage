@@ -1,72 +1,70 @@
 body {
-  margin: 0;
   color: black;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Questrial", sans-serif;
   text-transform: uppercase;
+  box-sizing: border-box;
 }
 
-#header,
-#nav-bar,
-.container {
-  max-width: 1280px;
-  margin: 10px 15px;
-}
 
-/*===================================================*/
-/*===================HEADER STYLING==================*/
 
-#header {
-  max-width: 300px;
-  border: 2px dashed blueviolet;
-}
+/*=====================================================*/
+/*====================HEADER STYLING===================*/
 
-.logo {
-  width: 300px;
-}
-
-#header-img {
-  width: 100px;
-  margin: 0 auto;
+header {
+  margin: 0;
+  padding: 5px 5px;
   border: 2px solid red;
 }
 
-#hero {
-  max-width: 300px;
-  padding-top: 20px;
-  padding-bottom: 70px;
-  background-image: url(logo1.jpg);
-  background-position: center;
-  background-size: 300px;
-}
-
-/*====================================================*/
-/*===================NAV-BAR STYLING==================*/
-
-#nav-bar {
-  margin: 0 auto;
-}
-
-nav ul {
+#header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-ul {
-  list-style-type: none;
-  margin: 5px auto;
-  padding: 0 5px;
+
+/*==============HEADER IMG STYLING===============*/
+
+.logo {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-li {
+#header-img {
+  width: 100%;
+}
+
+/*=================NAV-BAR STYLING================*/
+
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  padding: 0 8px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
   font-size: 10px;
-  letter-spacing: 3px;
-  padding: 5px 9px;
 }
 
 .bord {
-  border-right: 2px solid black;
+  border-right: 1px solid black;
 }
 
-/*====================================================*/
-/*==================CONTAINER STYLING=================*/
+/*======================================================*/
+/*===================HERO IMG STYLING===================*/
