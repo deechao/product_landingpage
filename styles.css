@@ -2,6 +2,7 @@ body {
   color: black;
   font-family: "Questrial", sans-serif;
   text-transform: uppercase;
+  color: whitesmoke;
   box-sizing: border-box;
   background: linear-gradient(black, rgb(51, 50, 50), gray);
   background-repeat: no-repeat;
@@ -38,7 +39,7 @@ header {
   justify-content: space-between;
 }
 
-/*==============HEADER IMG STYLING===============*/
+/*=============HEADER IMG STYLING==============*/
 
 .logo {
   width: 75px;
@@ -52,7 +53,7 @@ header {
   margin: 0 5px;
 }
 
-/*=================NAV-BAR STYLING================*/
+/*================NAV-BAR STYLING===============*/
 
 #nav-bar {
   display: flex;
@@ -72,9 +73,9 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: whitesmoke;
   font-size: 10px;
   letter-spacing: 1px;
+  color: whitesmoke;
 }
 
 .bord {
@@ -85,16 +86,26 @@ nav ul li a {
 /*=================H2 DESCRIPTION STYLING=================*/
 
 #description {
-  margin: 15px 5px;
-  color: whitesmoke;
+  margin: 20px 5px;
   text-align: center;
   letter-spacing: 5px;
   word-spacing: 4px;
 }
 
+/*========================================================*/
+/*========================HR STYLING======================*/
+
+hr {
+  margin: 0 10px;
+  border: 1px solid whitesmoke;
+}
+
+/*========================================================*/
+/*====================CONTAINER STYLING===================*/
+
 .container {
   margin: 10px 0;
-  padding: 20px 20px;
+  padding: 10px 20px;
   max-width: 1200px;
 }
 
@@ -102,24 +113,67 @@ nav ul li a {
   margin: 5px 5px;
 }
 
-/*.promo {
-  border: 2px solid green;
-}*/
-
 .cars {
   width: 100%;
   box-shadow: 2px 2px 2px black;
 }
 
 p {
-  color: whitesmoke;
   text-align: center;
 }
 
 .details {
   font-size: 11px;
   text-shadow: 2px 2px 2px black;
+  margin-bottom: 15px;
+}
+
+/*========================================================*/
+/*=====================VIDEO STYLING======================*/
+
+#video {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+/*========================================================*/
+/*===================P OWNER STYLING======================*/
+
+#owner {
+  margin: 0 10px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: black;
 }
 
 /*========================================================*/
 /*======================FORM STYLING======================*/
+
+#form {
+  margin: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#email {
+  width: 100%;
+  margin: 5px 5px;
+}
+
+/*===============BUTTON STYLING================*/
+
+#submit {
+  margin: 5px 5px;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*========================================================*/
+/*======================FOOTER STYLING====================*/
