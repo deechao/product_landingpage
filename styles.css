@@ -133,7 +133,9 @@ hr {
 /*====================CONTAINER STYLING===================*/
 
 .container {
+  max-width: 1200px;
   padding: 10px 20px;
+  margin: 0 auto;
   max-width: 1200px;
 }
 
@@ -394,4 +396,15 @@ footer {
     margin: 15px 10px;
     font-size: 15px;
   }
+
+
+  /*===================================================================*/
+/*===================MEDIA QUERY / MIN-WIDTH 1330 PX===================*/
+
+@media screen and (min-width: 1330px) {
+  header {
+    background-size: 700px;
+    background-position-x: 215px;
+  }
 }
+  /*=================================================================*/
