@@ -349,14 +349,43 @@ footer {
   #description {
     font-size: larger;
   }
-
-  .options {
-    width: 240px;
-    padding: 0 10px;
-  }
 }
 /*===================================================================*/
 /*==================MEDIA QUERY / MIN-WIDTH 900 PX==================*/
+
+@media screen and (min-width: 900px) {
+  header {
+    background-size: 400px;
+    background-position-x: 163px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  nav ul li {
+    padding: 0 15px;
+  }
+
+  #description {
+    font-size: larger;
+    word-spacing: 12px;
+  }
+
+  .ad {
+    width: 550px;
+  }
+
+  .details {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  #pricing {
+    width: 700px;
+    margin: 20px auto;
+  }
+}
 
 /*===================================================================*/
 /*===================MEDIA QUERY / MIN-WIDTH 1200 PX===================*/
