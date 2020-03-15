@@ -351,7 +351,7 @@ footer {
   }
 }
 /*===================================================================*/
-/*==================MEDIA QUERY / MIN-WIDTH 900 PX==================*/
+/*==================MEDIA QUERY / MIN-WIDTH 900 PX===================*/
 
 @media screen and (min-width: 900px) {
   header {
@@ -388,6 +388,70 @@ footer {
 }
 
 /*===================================================================*/
-/*===================MEDIA QUERY / MIN-WIDTH 1200 PX===================*/
+/*=================MEDIA QUERY / MIN-WIDTH 1200 PX===================*/
 
-/*=================================================================*/
+@media screen and (min-width: 1200px) {
+  header {
+    background-size: 600px;
+    background-position-x: 175px;
+  }
+
+  .logo {
+    width: 150px;
+    margin-left: 10px;
+  }
+
+  nav ul {
+    padding: 0 5px;
+  }
+
+  nav ul li {
+    padding: 5px 25px;
+  }
+
+  nav ul li a {
+    font-size: 18px;
+  }
+
+  #description {
+    font-size: 25px;
+    word-spacing: 15px;
+  }
+
+  .ad {
+    width: 800px;
+  }
+
+  .options {
+    width: 300px;
+    height: 175px;
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .details {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  #pricing {
+    width: 700px;
+    margin: 20px auto;
+  }
+
+  #owner {
+    margin: 30px 0;
+    font-size: 18px;
+    text-shadow: 3px 3px 3px rgb(44, 37, 37);
+  }
+
+  #email {
+    margin: 10px 5px;
+    width: 400px;
+  }
+}
+
+/*===================================================================*/
