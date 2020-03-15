@@ -312,19 +312,29 @@ footer {
   }
 
   h3 {
-    letter-spacing: 3px;
+    font-size: large;
   }
 
-  #pricing {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+  p {
+    font-size: 13px;
   }
 
   .options {
+    width: 240px;
     padding: 0 10px;
-    border: 2px solid black;
+  }
+
+  #owner {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+
+  #reservenow {
+    margin: 10px 0;
+  }
+
+  footer {
+    margin: 10px 0;
   }
 }
 
