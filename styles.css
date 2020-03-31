@@ -119,14 +119,14 @@ nav ul li a:hover {
 /*=================H6 DESCRIPTION STYLING=================*/
 
 #description {
-  margin: 15px 5px;
+  margin: 25px 5px;
 }
 
 /*========================================================*/
 /*========================HR STYLING======================*/
 
 hr {
-  margin: 10px;
+  margin: 20px 10px;
   border: 1px solid whitesmoke;
 }
 
@@ -352,6 +352,7 @@ footer {
 
   #description {
     font-size: larger;
+    margin: 35px 5px;
   }
 }
 /*===================================================================*/
