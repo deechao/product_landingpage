@@ -9,31 +9,31 @@ body {
   max-width: 1330px;
 }
 
-body,
-nav ul {
+nav ul,
+body {
   margin: 0 auto;
 }
 
-#header,
 #header-img,
-#nav-bar {
+#nav-bar,
+#header {
   padding: 0 5px;
 }
 
-body,
+#submit:hover,
 nav ul li a,
-#submit:hover {
+body {
   color: whitesmoke;
 }
 
-nav ul li a,
+#submit,
 .options,
-#submit {
+nav ul li a {
   font-size: 10px;
 }
 
-body,
-#submit {
+#submit,
+body {
   text-transform: uppercase;
 }
 
@@ -47,15 +47,19 @@ body,
   box-shadow: 2px 2px 2px rgb(44, 37, 37);
 }
 
-#pricing,
-#owner {
-  margin: 15px 10px;
+#description,
+#pack {
+  letter-spacing: 5px;
+  word-spacing: 7px;
 }
 
 /*=======================================================*/
 /*=====================HEADER STYLING====================*/
 
-header {
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   position: sticky;
   top: 0;
   background-color: black;
@@ -64,12 +68,6 @@ header {
   background-repeat: no-repeat;
   background-size: 360px;
   margin: 0 auto;
-}
-
-#header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 /*============HEADER IMG STYLING=============*/
@@ -122,15 +120,13 @@ nav ul li a:hover {
 
 #description {
   margin: 15px 5px;
-  letter-spacing: 5px;
-  word-spacing: 7px;
 }
 
 /*========================================================*/
 /*========================HR STYLING======================*/
 
 hr {
-  margin: 10px 10px;
+  margin: 10px;
   border: 1px solid whitesmoke;
 }
 
@@ -142,7 +138,7 @@ hr {
 }
 
 .ad {
-  margin: 5px 5px;
+  margin: 5px;
 }
 
 .cars {
@@ -153,18 +149,23 @@ hr {
 .details {
   font-size: 11px;
   text-shadow: 2px 2px 2px black;
-  margin-top: 5px;
-  margin-bottom: 15px;
+  margin: 5px 0 15px;
 }
 
 /*========================================================*/
 /*=========================PRICING========================*/
 
 h3 {
-  letter-spacing: 3px;
+  letter-spacing: 4px;
+}
+
+#pack {
+  margin: 25px 10px 0;
+  border-bottom: 2px solid whitesmoke;
 }
 
 #pricing {
+  margin: 30px 10px 35px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -188,6 +189,7 @@ h3 {
 /*===================P OWNER STYLING======================*/
 
 #owner {
+  margin: 25px 10px;
   font-size: 15px;
   letter-spacing: 2px;
   color: black;
@@ -208,7 +210,7 @@ h3 {
 #email {
   width: 300px;
   height: 25px;
-  margin: 5px 5px;
+  margin: 5px;
 }
 
 /*===============BUTTON STYLING================*/
@@ -237,7 +239,7 @@ h3 {
 
 footer {
   color: black;
-  padding: 10px 10px;
+  padding: 10px;
 }
 
 /*==================================================================*/
@@ -254,7 +256,7 @@ footer {
   }
 
   nav ul li a {
-    padding: 5px 5px;
+    padding: 5px;
   }
 
   #description {
@@ -268,7 +270,7 @@ footer {
   }
 
   .options {
-    padding: 10px 10px;
+    padding: 10px;
   }
 
   #video {
@@ -342,7 +344,7 @@ footer {
 /*==================MEDIA QUERY / MIN-WIDTH 720 PX==================*/
 
 @media screen and (min-width: 720px) {
-  header {
+  #header {
     background-position-x: 80px;
   }
 
@@ -354,7 +356,7 @@ footer {
 /*==================MEDIA QUERY / MIN-WIDTH 900 PX===================*/
 
 @media screen and (min-width: 900px) {
-  header {
+  #header {
     background-size: 400px;
     background-position-x: 163px;
   }
@@ -391,7 +393,7 @@ footer {
 /*=================MEDIA QUERY / MIN-WIDTH 1200 PX===================*/
 
 @media screen and (min-width: 1200px) {
-  header {
+  #header {
     background-size: 600px;
     background-position-x: 175px;
   }
@@ -457,7 +459,7 @@ footer {
 /*===================================================================*/
 /*=================MEDIA QUERY / MIN-WIDTH 1360 PX===================*/
 @media screen and (min-width: 1360px) {
-  header {
+  #header {
     background-size: 650px;
     background-position-x: 210px;
   }
