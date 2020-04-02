@@ -39,7 +39,7 @@ body {
 
 .container,
 #video {
-  margin: 10px auto;
+  margin: 30px auto;
 }
 
 #email,
@@ -245,7 +245,7 @@ footer {
 }
 
 /*==================================================================*/
-/*==================MEDIA QUERY / MIN-WIDTH 480 PX==================*/
+/*==================MEDIA QUERY / MIN-WIDTH 460 PX==================*/
 
 @media screen and (min-width: 460px) {
   .logo {
@@ -276,7 +276,7 @@ footer {
   }
 
   #video {
-    margin: 20px 5px;
+    margin: 40px 5px;
   }
 }
 
@@ -311,8 +311,7 @@ footer {
   .details {
     font-size: 13px;
     text-shadow: 3px 3px 3px black;
-    margin-top: 5px;
-    margin-bottom: 20px;
+    margin: 5px 0 20px;
   }
 
   h3 {
@@ -333,10 +332,7 @@ footer {
     margin: 20px 0;
   }
 
-  #reservenow {
-    margin: 10px 0;
-  }
-
+  #reservenow,
   footer {
     margin: 10px 0;
   }
@@ -388,7 +384,7 @@ footer {
 
   #pricing {
     width: 700px;
-    margin: 20px auto;
+    margin: 30px auto 45px;
   }
 }
 
